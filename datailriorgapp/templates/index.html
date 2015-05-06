@@ -8,11 +8,10 @@
 
 {% block extra_content %}
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6 col-md-offset-3">
             <form method="post" class="form-inline" role="form" action="{{ request.path }}">
                 <div class="form-group">
-                    <label for="email" style="color: #000000">Search our resources:</label>
-                    <input type="text" class="form-control" id="search-content" name="search-content">
+                    <input type="text" class="form-control" id="search-content" name="search-content" placeholder="Search our resources...">
                 </div>
                 <div class="checkbox">
                     <label style="color: #000000"><input type="checkbox" checked>Data</label>
